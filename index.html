@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Weather APP</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="emranweb">
+  <meta name="description" content="A Javascript Weather app">
+  <meta name="keywords" content="Javascript, Javascript-api, Openweather-api, emranweb, emranweba website">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <section class="weather mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <div class="card d-flex">
+            <!-- Card Body -->
+            <div class="card-body">
+
+              <div class="location">
+                <h3 class="city text-uppercase"></h3>
+                <h3 class="state text-uppercase"></h3>
+              </div>
+
+              <div class="weather-details d-flex justify-content-around">
+                <img alt="Weather icon" class="icon">
+                <div class="temp-details d-flex">
+                  <h1 class="temp"></h1>
+                  <span> C</span>
+                </div>
+              </div>
+
+              <h2 class="desc text-center text-uppercase"></h2>
+
+            </div>
+
+            <div class="card-footer">
+              <ul class="group">
+                <li>
+                  <span>
+                    <i class="fas fa-tint"></i>
+                  </span>
+                  <span class="humidity float-right"></span>
+                </li>
+                <li>
+                  <span>
+                    <i class="fas fa-broadcast-tower"></i>
+                  </span>
+                  <span class="wind float-right"></span>
+                </li>
+                <li>
+                  <span>
+                    <i class="fas fa-cloud"></i>
+                  </span>
+                  <span class="cloud float-right"></span>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
